@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">LoginAndSignup</string>
-    <string name="Username">Username</string>
+    <string name="Username">Student Name</string>
     <string name="Password">Password</string>
     <string name="RememberMe">Remember Me</string>
     <string name="Login">Login</string>
@@ -11,5 +11,17 @@
     <string name="Email">Email</string>
     <string name="ConfirmEmailAddress">Confirm Email Address</string>
     <string name="SignUp">Sign Up</string>
-    <string name="registrationPage">Registration Page</string>
+    <string name="addmisionPage">Addmission Page</string>
+
+    <string name="email">LoginAndSignup</string>
+
+    <string name="name">Name</string>
+    <string name="street">Address Line</string>
+    <string name="phone">Phone</string>
+    <string name="country">Country</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="Add_New">Add New Student</string>
+
 </resources>

@@ -1,4 +1,4 @@
-package com.test.ppandey.contactapp;
+package com.test.salman.studentcrud;
 
 import android.content.ContentValues;
 import android.content.Context;

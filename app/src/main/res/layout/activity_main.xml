@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -9,7 +10,7 @@
     android:background="@drawable/diego_ph"
     android:orientation="horizontal">
 
-    <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    <android.support.constraint.ConstraintLayout
         android:id="@+id/Constraint1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -22,20 +23,28 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8.0dip"
+            android:layout_width="429dp"
+            android:layout_height="246dp"
             android:layout_marginStart="8.0dip"
-            android:contentDescription="@string/Logo"
+            android:layout_marginEnd="8.0dip"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
             android:src="@drawable/logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:srcCompat="@drawable/avatar" />
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/Constraint2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -92,10 +101,10 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableStart="@drawable/lock"
                 android:drawableLeft="@drawable/lock"
                 android:hint="@string/Password"
-                android:inputType="textPassword"
-                android:drawableStart="@drawable/lock" />
+                android:inputType="textPassword" />
 
 
         </android.support.design.widget.TextInputLayout>
